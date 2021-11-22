@@ -6,12 +6,97 @@ namespace CollegeFootballGame
 {
     public class PlayerRatings : Ratings
     {
-        public int Speed {get; set;}
-        public int Acceleration { get; set; }
-        public int Strength { get; set; }
-        public int Agility { get; set; }
-        public int Jumping { get; set; }
-        public int Stamina { get; set; }
+        protected int _speed;
+        public int Speed {get { return _speed; } set { 
+                if(value < 40)
+                { 
+                    _speed = 40;
+                }
+                else if (value > 99)
+                {
+                    _speed = 99;
+                }
+                    } }
+        protected int _acceleration;
+        public int Acceleration
+        {
+            get { return _acceleration; }
+            set
+            {
+                if (value < 40)
+                {
+                    _acceleration = 40;
+                }
+                else if (value > 99)
+                {
+                    _acceleration = 99;
+                }
+            }
+        }
+        protected int _strength;
+        public int Strength
+        {
+            get { return _strength; }
+            set
+            {
+                if (value < 40)
+                {
+                    _strength = 40;
+                }
+                else if (value > 99)
+                {
+                    _strength = 99;
+                }
+            }
+        }
+        protected int _agility;
+        public int Agility
+        {
+            get { return _agility; }
+            set
+            {
+                if (value < 40)
+                {
+                    _agility = 40;
+                }
+                else if (value > 99)
+                {
+                    _agility = 99;
+                }
+            }
+        }
+        protected int _Jumping;
+        public int Jumping
+        {
+            get { return _Jumping; }
+            set
+            {
+                if (value < 40)
+                {
+                    _Jumping = 40;
+                }
+                else if (value > 99)
+                {
+                    _Jumping = 99;
+                }
+            }
+        }
+        protected int _stamina;
+        public int Stamina
+        {
+            get { return _stamina; }
+            set
+            {
+                if (value < 40)
+                {
+                    _stamina = 40;
+                }
+                else if (value > 99)
+                {
+                    _stamina = 99;
+                }
+            }
+        }
         public int Injury { get; set; }
         public int Tackle { get; set; }
         public int HitPower { get; set; }
@@ -115,7 +200,7 @@ namespace CollegeFootballGame
             switch(position)
             {
                 case Position.QB:
-                    //qb creation method
+                    CreateQB();
                     break;
                 case Position.HB:
                     //hb creation method
@@ -161,8 +246,8 @@ namespace CollegeFootballGame
         public void CreateQB()
         {
             Random rand = new Random();
-            Speed = rand.Next(99);
-            Acceleration = rand.Next(99);
+            Speed = 1;
+            Acceleration = 1;
             Strength = rand.Next(99);
             Agility = rand.Next(99);
             Jumping = rand.Next(99);

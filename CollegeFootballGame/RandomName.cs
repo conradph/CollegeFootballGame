@@ -44,7 +44,7 @@ namespace CollegeFootballGame
 
             JsonSerializer serializer = new JsonSerializer();
 
-            using (StreamReader reader = new StreamReader(@"C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\names.json"))
+            using (StreamReader reader = new StreamReader("names.json"))
             using (JsonReader jreader = new JsonTextReader(reader))
             {
                 l = serializer.Deserialize<NameList>(jreader);

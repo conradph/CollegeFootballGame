@@ -6,10 +6,15 @@ namespace CollegeFootballGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello and welcome to G&P Football!");
+            PlayerInfo info = new PlayerInfo(Position.QB);
+            PlayerRatings ratings = new PlayerRatings(Position.QB);
+            Console.WriteLine(ratings.Speed);
+            Player player = new Player(info, ratings);
+
+            /*Console.WriteLine("Hello and welcome to G&P Football!");
             Team team = new Team("Michigan State", "Spartans", States.los[22]);
             Console.WriteLine(team.Roster.Count);
-            team.PrintInfoAndRoster();
+            team.PrintInfoAndRoster();*/
             
         }
         public static double RandomUniform(Random rand, double mean, double stdDev)
