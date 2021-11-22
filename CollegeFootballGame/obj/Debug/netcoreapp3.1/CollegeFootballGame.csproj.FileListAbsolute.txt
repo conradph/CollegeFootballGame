@@ -1,0 +1,15 @@
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.AssemblyInfoInputs.cache
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.AssemblyInfo.cs
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.csproj.CoreCompileInputs.cache
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\CollegeFootballGame.exe
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\CollegeFootballGame.deps.json
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\CollegeFootballGame.runtimeconfig.json
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\CollegeFootballGame.runtimeconfig.dev.json
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\CollegeFootballGame.dll
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\CollegeFootballGame.pdb
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.dll
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.pdb
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.genruntimeconfig.cache
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.csproj.CopyComplete
+C:\Users\pconr\source\repos\CollegeFootballGame\CollegeFootballGame\obj\Debug\netcoreapp3.1\CollegeFootballGame.csproj.AssemblyReference.cache

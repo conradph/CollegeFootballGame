@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5/uKIR/WzeSmu+ryI0P0zQQ4LM8tFHwb2N+HXs7y3ZdzQQY7HhO9GKeHFUzHrzydIHDxHiNL3pDJDZMiL5XmaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pconr\\source\\repos\\CollegeFootballGame\\CollegeFootballGame\\CollegeFootballGame.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pconr\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
